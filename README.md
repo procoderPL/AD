@@ -84,3 +84,12 @@ Switch ($getal)
 4 {Write-Host "u heeft het nummer 4 gekozen"}
 5 {Write-Host "u heeft het nummer 5 gekozen"}
 }
+
+Clear-Host
+[int]$getal = 0
+do{
+write-host "de waarde van het getal is $getal"
+$getal++
+
+}
+while($getal -lt 10)
